@@ -1,2 +1,19 @@
 node_modules/
 frontend/
+
+# dotenv environment files
+.env
+.env.*
+
+# local folders and uploads
+/uploads/
+backend/uploads/
+
+# OS / editor files
+.DS_Store
+.vscode/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
